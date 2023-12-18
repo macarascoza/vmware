@@ -31,7 +31,7 @@ https://www.vmware.com/support/services.html
 
 https://labs.hol.vmware.com
 
-Site de estudo\cursos
+# Site de estudo\cursos
 
 https://www.vmware.com/learning.html
 
