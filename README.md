@@ -14,10 +14,10 @@ Date: 18/12/2023
 
 | Ambiente              | Descrição                   | Link                                                          |
 |:-----------           |    :---------:              |:----                                                          |
-| Horizon_VDI           | Desktop Virtual             |[ Horizon_VDI ](./Horizon_VDI/README.md)                       |
-| Powercli              | Ambinete de scripts         |[ dashy.yml](./Powercli/README.MD)                             |
-| vSphere               | Servidores Infra            |[ homarr.yml](./vSphere/README.md)                             |
-| Machine               | Vms                         |[ dozzle.yml](./Machine/README.md)                             |
+| Horizon_VDI           | Desktop Virtual             |[ Horizon_VDI](./Horizon_VDI/README.md)                       |
+| Powercli              | Ambinete de scripts         |[ Powercli](./Powercli/README.MD)                             |
+| vSphere               | Servidores Infra            |[ vSphere](./vSphere/README.md)                             |
+| Machine               | Vms                         |[ Machine](./Machine/README.md)                             |
 
 ## Informações gerais VMware
 
