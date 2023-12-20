@@ -64,7 +64,7 @@ VMXNET3	=> 10 Gbps
 vSphere 8 necessario vCenter + ESXi o ambiente do vCenter deve ter hosts no mínimo ESXi 6.7, 7.0 e 8.0
 
 >[!IMPORTANT]
->8000 mil estações virtuais por Cluster, estações virtuais por host físico(link: https://configmax.esp.vmware.com/guest?vmwareproduct=vSphere&release=vSphere%208.0&categories=2-0).
+>8000 mil estações virtuais por Cluster, estações virtuais por host físico [Link](https://configmax.esp.vmware.com/guest?vmwareproduct=vSphere&release=vSphere%208.0&categories=2-0).
 
 ## Migração de estação virtual
 
