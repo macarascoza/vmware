@@ -1,4 +1,4 @@
-# Install via SSH
+# Install via SSH Linux
 
 Monte imagem vmtoosl
 ```powershell
