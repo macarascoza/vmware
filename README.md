@@ -19,7 +19,8 @@ https://github.com/vmware/open-vm-tools
 # Marketplace com OVF / OVA de vários fabricantes
 https://marketplace.cloud.vmware.com/
 
-# Configmax vmware (Configurações maximas das soluções)
+# Configmax vmware
+(Configurações maximas das soluções)
 https://configmax.esp.vmware.com/home
 
 # VMware Compatibility Guide
