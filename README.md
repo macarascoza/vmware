@@ -12,10 +12,10 @@ Date: 18/12/2023
 
 ## Tabela dos repositórios de scripts
 
-| Ambiente              | Descrição                   | Link                                                          |
-|:-----------           |    :---------:              |:----                                                          |
-| Horizon_VDI           | Desktop Virtual             |[ Horizon_VDI](./Horizon_VDI/README.md)                       |
-| Powercli              | Ambinete de scripts         |[ Powercli](./Powercli/README.MD)                             |
+| Ambiente              | Descrição                   | Link                                                       |
+|:-----------           |    :---------:              |:----                                                       |
+| Horizon_VDI           | Desktop Virtual             |[ Horizon_VDI](./Horizon_VDI/README.md)                     |
+| Powercli              | Ambinete de scripts         |[ Powercli](./Powercli/README.MD)                           |
 | vSphere               | Servidores Infra            |[ vSphere](./vSphere/README.md)                             |
 | Machine               | Vms                         |[ Machine](./Machine/README.md)                             |
 
@@ -33,7 +33,7 @@ Date: 18/12/2023
 
 [VMware Compatibility Guide](https://www.vmware.com/resources/compatibility/search.php)
 
-[Site com KBs de erros] (https://kb.vmware.com/s/)
+[Site com KBs de erros](https://kb.vmware.com/s/)
 
 [Site de Suporte](https://www.vmware.com/support/services.html)
 
