@@ -26,8 +26,11 @@ Talvez seja necessário instalar o PowerCLI em uma máquina local sem conectivid
 
 ### Pré-requisitos
 Verifique se o sistema é compatível com o PowerCLI. Consulte a Matriz de Compatibilidade (https://code.vmware.com/web/tool/vmware-powercli).
+
 Verifique se o PowerShell está disponível em seu sistema. Para Linux e macOS, você deve instalar o PowerShell (https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell).
+
 Para Windows, se você tiver o PowerCLI 6.5 R1 ou anterior, desinstale-o.
+
 Baixe o arquivo PowerCLI ZIP (https://code.vmware.com/web/tool/vmware-powercli) e transfira o arquivo ZIP para sua máquina local.
 
 ### Procedimento
