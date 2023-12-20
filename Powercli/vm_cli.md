@@ -11,7 +11,7 @@ Connect-VIServer “vCenter Name / IP ”
 Get-VM -Name MyVM*
 ```
 
-### Listar VMs com status poweroff (desligadas)
+### Listar VMs com status "PoweredOff" (desligadas)
 ```powershell
 Get-VM | where-object {$_.PowerState –eq “PoweredOff”}
 ```
@@ -26,4 +26,4 @@ Start-VM -VM VM -Confirm -RunAsync
 Stop-VM -VM VM -Kill -Confirm:$false
 ```
 
-Link Oficial: https://developer.vmware.com/docs/powercli/latest/products/vmwarevsphereandvsan/categories/vm/
+Link Oficial: <https://developer.vmware.com/docs/powercli/latest/products/vmwarevsphereandvsan/categories/vm/>

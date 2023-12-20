@@ -21,8 +21,11 @@ Date: 18/12/2023
 
 ## Informações gerais VMware
 
-### Site de documentação Vmware
+### Documentação Vmware
 https://docs.vmware.com
+
+### Portas das soluções VMware
+https://ports.esp.vmware.com/
 
 ### Githib vmware tools
 https://github.com/vmware/open-vm-tools
