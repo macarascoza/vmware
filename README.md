@@ -19,12 +19,11 @@ Date: 18/12/2023
 | vSphere               | Servidores Infra            |[ vSphere](./vSphere/README.md)                             |
 | Machine               | Vms                         |[ Machine](./Machine/README.md)                             |
 
-## Informações gerais VMware
+## Sites e Referebcias VMware
 
-### [Documentação Vmware] (https://docs.vmware.com)
+[Documentação Vmware](https://docs.vmware.com)
 
-### Portas das soluções VMware
-https://ports.esp.vmware.com/
+[Portas das soluções VMware](https://ports.esp.vmware.com/)
 
 ### Githib vmware tools
 https://github.com/vmware/open-vm-tools
