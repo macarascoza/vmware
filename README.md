@@ -14,6 +14,14 @@ Date: 18/12/2023
 
 https://docs.vmware.com
 
+# Githib vmware tools
+
+https://github.com/vmware/open-vm-tools
+
+# Marketplace com OVF / OVA de vários fabricantes
+
+https://marketplace.cloud.vmware.com/
+
 # VMware Compatibility Guide
 
 https://www.vmware.com/resources/compatibility/search.php
@@ -25,7 +33,6 @@ https://kb.vmware.com/s/
 # Site de Suporte
 
 https://www.vmware.com/support/services.html
-
 
 # Site de Labs VMware
 
