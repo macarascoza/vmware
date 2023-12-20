@@ -10,7 +10,7 @@ Date: 18/12/2023
 >[!IMPORTANT]
 >Repositórios de scripts para soluções vmware em desenvolvimento.
 
-## Tabela de Docker composer
+## Tabela dos repositórios de scripts
 
 | Ambiente              | Descrição                   | Link                                                          |
 |:-----------           |    :---------:              |:----                                                          |
