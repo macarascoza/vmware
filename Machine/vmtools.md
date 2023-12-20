@@ -8,6 +8,7 @@ sudo mkdir /mnt/cdrom
 listar diretorio
 ```powershell
 ls /mnt/cdrom
+```
 
 Extrair arquivo vmtools
 ```powershell
