@@ -21,6 +21,7 @@ https://marketplace.cloud.vmware.com/
 
 # Configmax vmware
 (Configurações maximas das soluções)
+
 https://configmax.esp.vmware.com/home
 
 # VMware Compatibility Guide
