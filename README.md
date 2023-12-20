@@ -10,34 +10,43 @@ Date: 18/12/2023
 >[!IMPORTANT]
 >Repositórios de scripts para soluções vmware em desenvolvimento.
 
-## Site de documentação Vmware
+## Tabela de Docker composer
+
+| Ambiente              | Descrição                   | Link                                                          |
+|:-----------           |    :---------:              |:----                                                          |
+| Horizon_VDI           | Desktop Virtual             |[ Horizon_VDI ](./Horizon_VDI/README.md)                       |
+| Powercli              | Ambinete de scripts         |[ dashy.yml](./Powercli/README.MD)                             |
+| vSphere               | Servidores Infra            |[ homarr.yml](./vSphere/README.md)                             |
+| Machine               | Vms                         |[ dozzle.yml](./Machine/README.md)                             |
+
+### Site de documentação Vmware
 https://docs.vmware.com
 
-## Githib vmware tools
+### Githib vmware tools
 https://github.com/vmware/open-vm-tools
 
-## Marketplace com OVF / OVA de vários fabricantes
+### Marketplace com OVF / OVA de vários fabricantes
 https://marketplace.cloud.vmware.com/
 
-## Configmax vmware
-### (Configurações maximas das soluções)
+### Configmax vmware
+#### (Configurações maximas das soluções)
 
 https://configmax.esp.vmware.com/home
 
-## VMware Compatibility Guide
+### VMware Compatibility Guide
 https://www.vmware.com/resources/compatibility/search.php
 
-## Site com Kbs de erros 
+### Site com Kbs de erros 
 https://kb.vmware.com/s/
 
-## Site de Suporte
+### Site de Suporte
 https://www.vmware.com/support/services.html
 
-## Site de Labs VMware
+### Site de Labs VMware
 https://labs.hol.vmware.com
 
-## Site de estudo\cursos
+### Site de estudo\cursos
 https://www.vmware.com/learning.html
 
-## Certificação vmware
+### Certificação vmware
 https://www.vmware.com/learning/certification.html
