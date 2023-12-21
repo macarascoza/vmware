@@ -1,5 +1,22 @@
 # Definições infraestrutura VMware.
 
+## Gerenciamento de CPU
+
+VM =>  Sockets e Cores = sockets x cores = quantidade de vCPUs (uma vCPU para uma CPU física).
+
+Um cenário com uma VM 8 vCPUs pode ter as configurações:
+
+1 socket e 8 cores (recomendado)
+2 sockets e 4 cores
+4 sockets e 2 cores
+8 sockets e 1 core 
+
+Depender do SO instalado no Guest.
+
+NUMA - Non-Uniform Memory Access
+
+Tecnologia foi criada pela IBM que hoje está disponível em todos os servidores físicos (hosts)
+
 ## Templates
 
 Dois Tipos:
@@ -9,7 +26,6 @@ OVF => VMware e vários players
 
 Padrão OVF possui varios arquivos.
 Padrão OVA é um único arquivo compactado.
-
 
 ## Estação Virtual VM
 
@@ -59,12 +75,23 @@ VMXNET	=> 10/100 Mbps
 VMXNET2	=> 1 Gbps (não existe mais)
 VMXNET3	=> 10 Gbps
 
-
 ## Vcenter - vSphere
 vSphere 8 necessario vCenter + ESXi o ambiente do vCenter deve ter hosts no mínimo ESXi 6.7, 7.0 e 8.0
 
 >[!IMPORTANT]
 >8000 mil estações virtuais por Cluster, estações virtuais por host físico [Link](https://configmax.esp.vmware.com/guest?vmwareproduct=vSphere&release=vSphere%208.0&categories=2-0).
+
+## DRS
+Balanceamento de carga automatizado 0 DRS distribui as cargas de trabalho da máquina virtual pelos hosts do vSphere em um cluster e monitora os recursos disponíveis para você. Com base no nível de automação, o DRS migrará (VMware vSphere vMotion) máquinas virtuais para outros hosts no cluster para maximizar o desempenho.
+
+## HA
+
+O VMware vSphere High Availability proporciona a disponibilidade exigida pela maioria dos aplicativos em execução em máquinas virtuais, independentemente do sistema operacional e dos aplicativos em execução. O High Availability fornece proteção uniforme e econômica contra falhas de hardware e sistema operacional no seu ambiente de TI virtualizado. O High Availability permite:
+
+ 
+. Monitorar hosts e máquinas virtuais do VMware vSphere para detectar falhas de hardware e sistema operacional guest.
+. Reiniciar as máquinas virtuais em outros hosts vSphere no cluster sem intervenção manual quando uma interrupção do servidor for detectada.
+. Reduzir o tempo de inatividade do aplicativo ao reiniciar automaticamente as máquinas virtuais após a detecção de uma falha no sistema operacional.
 
 ## Migração de estação virtual
 
