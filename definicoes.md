@@ -6,10 +6,10 @@ VM =>  Sockets e Cores = sockets x cores = quantidade de vCPUs (uma vCPU para um
 
 Um cenário com uma VM 8 vCPUs pode ter as configurações:
 
-1 socket e 8 cores (recomendado)
-2 sockets e 4 cores
-4 sockets e 2 cores
-8 sockets e 1 core 
+* 1 socket e 8 cores (recomendado)
+* 2 sockets e 4 cores
+* 4 sockets e 2 cores
+* 8 sockets e 1 core 
 
 Depender do SO instalado no Guest.
 
@@ -36,16 +36,17 @@ Padrão OVA é um único arquivo compactado.
 
 #### Thick:
 
-Provisiona no datastore o espaço do disco imediatament, prepara os blocos do disco, inserindo zeros na hora ou antes de escrever algum bloco de dados da VM.
+* Provisiona no datastore o espaço do disco imediatament, prepara os blocos do disco, inserindo zeros na hora ou antes de escrever algum bloco de dados da VM.
 possui um gerenciamento do ambiente e cuidados menores.
 
 Tipos:
-Thick Provision Lazy Zeroed: opção padrão para praticamente todas as aplicações, exceto as que requerem o Eager Zeroed.
-Thick Provision Eager Zeroed: normalmente utilizado por VM que irão utilizar a funcionalidade Fault Tolerance do VMware, ou se for utilizar a funcionalidade do Microsoft Failover Cluster dentro das máquinas virtuais.
+
+* Thick Provision Lazy Zeroed: opção padrão para praticamente todas as aplicações, exceto as que requerem o Eager Zeroed.
+* Thick Provision Eager Zeroed: normalmente utilizado por VM que irão utilizar a funcionalidade Fault Tolerance do VMware, ou se for utilizar a funcionalidade do Microsoft Failover Cluster dentro das máquinas virtuais.
 
 #### Thin: 
 
-Thin Provision: normalmente utilizado quando se deseja provisionar mais espaço que o total de espaço físico disponível, porém pode causar problemas se todas as VMs utilizarem todo o espaço disponível do datastore.
+* Thin Provision: normalmente utilizado quando se deseja provisionar mais espaço que o total de espaço físico disponível, porém pode causar problemas se todas as VMs utilizarem todo o espaço disponível do datastore.
 Não provisiona o espaço em disco no datastore e nem prepara inserindo zeros antes de escrever um bloco de dados.
 
 ## Adaptadores de Rede
@@ -89,9 +90,9 @@ Balanceamento de carga automatizado 0 DRS distribui as cargas de trabalho da má
 O VMware vSphere High Availability proporciona a disponibilidade exigida pela maioria dos aplicativos em execução em máquinas virtuais, independentemente do sistema operacional e dos aplicativos em execução. O High Availability fornece proteção uniforme e econômica contra falhas de hardware e sistema operacional no seu ambiente de TI virtualizado. O High Availability permite:
 
  
-. Monitorar hosts e máquinas virtuais do VMware vSphere para detectar falhas de hardware e sistema operacional guest.
-. Reiniciar as máquinas virtuais em outros hosts vSphere no cluster sem intervenção manual quando uma interrupção do servidor for detectada.
-. Reduzir o tempo de inatividade do aplicativo ao reiniciar automaticamente as máquinas virtuais após a detecção de uma falha no sistema operacional.
+* Monitorar hosts e máquinas virtuais do VMware vSphere para detectar falhas de hardware e sistema operacional guest.
+* Reiniciar as máquinas virtuais em outros hosts vSphere no cluster sem intervenção manual quando uma interrupção do servidor for detectada.
+* Reduzir o tempo de inatividade do aplicativo ao reiniciar automaticamente as máquinas virtuais após a detecção de uma falha no sistema operacional.
 
 ## Migração de estação virtual
 

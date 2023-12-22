@@ -10,6 +10,9 @@ Date: 18/12/2023
 >[!IMPORTANT]
 >Repositórios de scripts para soluções vmware em desenvolvimento.
 
+## Definições ambiente e infraestrutura VMware
+[Definições:](./definicoes.md)
+
 ## Tabela dos repositórios de scripts
 
 | Ambiente              | Descrição                   | Link                                                       |
